@@ -9,7 +9,6 @@ function _draw() {
   let template = ''
   // if a collection itterate over collection to generate template for each object
   cars.forEach(car => {
-    console.log(car)
     template += car.Template
   })
   // render to page
